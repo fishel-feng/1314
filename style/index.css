@@ -3,9 +3,17 @@
   padding: 0;
 }
 
+.container {
+  height: 100vh;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
 .item {
   height: 100vh;
   position: relative;
+  border: 1px solid #000;
+  box-sizing: border-box;
 }
 
 .item .item-content {

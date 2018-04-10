@@ -20,7 +20,7 @@
     },
     bindTouchEvent: function () {
       var viewport = document.querySelector('#viewport');
-      var pageHeight = window.innerHeight;
+      var pageHeight = window.outerHeight;
       var maxHeight = -pageHeight * (points.length - 1);
       var startX, startY;
       var initialPos = 0;
@@ -67,7 +67,7 @@
             translate = translate > 0 ? 0 : translate;
             translate = translate < maxHeight ? maxHeight : translate;
           } else {
-            if (Math.abs(moveLength) / pageHeight < 0.5) {
+            if (Math.abs(moveLength) / pageHeight < 0.3) {
               translate = currentPosition - moveLength;
             } else {
               translate = direction === 'top' ? currentPosition - (pageHeight + moveLength) : currentPosition + pageHeight - moveLength;

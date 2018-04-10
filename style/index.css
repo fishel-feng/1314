@@ -12,7 +12,7 @@ html, body {
 
 .viewport {
   width: 100vw;
-  height: 900vh;
+  height: 1000vh;
   overflow: hidden;
   -webkit-transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
@@ -25,6 +25,7 @@ html, body {
 }
 
 .page-view .page-content {
+  color: #ffffff;
   width: 100vw;
   height: 100vh;
   padding: 0 25vw;
@@ -32,6 +33,27 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.home {
+  position: relative;
+  flex-direction: column;
+  background-color: darkgrey;
+}
+
+.home .word {
+  margin: 3vh 0;
+}
+
+.home .love {
+  position: absolute;
+  bottom: 1vh;
+}
+
+.home .down {
+  position: absolute;
+  bottom: 8vh;
+  transform: rotate(180deg);
 }
 
 .chocolate {
@@ -42,20 +64,20 @@ html, body {
   background-color: cadetblue;
 }
 
-.chartreuse {
-  background-color: chartreuse;
+.mediumseagreen {
+  background-color: mediumseagreen;
 }
 
-.cyan {
-  background-color: cyan;
+.darkturquoise {
+  background-color: darkturquoise;
 }
 
-.hotpink {
-  background-color: hotpink;
+.lightpink {
+  background-color: lightpink;
 }
 
-.moccasin {
-  background-color: moccasin;
+.burlywood {
+  background-color: burlywood;
 }
 
 .mediumslateblue {
@@ -68,8 +90,4 @@ html, body {
 
 .lightcoral {
   background-color: lightcoral;
-}
-
-.color {
-  background-color: chocolate;
 }

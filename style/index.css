@@ -22,12 +22,54 @@ html, body {
 .page-view {
   width: 100vw;
   height: 100vh;
-  position: relative;
 }
 
 .page-view .page-content {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
+  padding: 0 25vw;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chocolate {
+  background-color: chocolate;
+}
+
+.cadetblue {
+  background-color: cadetblue;
+}
+
+.chartreuse {
+  background-color: chartreuse;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+.hotpink {
+  background-color: hotpink;
+}
+
+.moccasin {
+  background-color: moccasin;
+}
+
+.mediumslateblue {
+  background-color: mediumslateblue;
+}
+
+.darkseagreen {
+  background-color: darkseagreen;
+}
+
+.lightcoral {
+  background-color: lightcoral;
+}
+
+.color {
+  background-color: chocolate;
 }

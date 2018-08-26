@@ -27,52 +27,7 @@ fade-in-words{
 }
 .first-words{ 
     opacity: 0;      /*实先规定文字的状态是不显示的*/
-    animation: fade-in 4s ease 0s 1;    /*调用名称为fade-in的动画，全程动画显示时间4S，进入方式为ease，延时0S进入，播放次数1次*/
-    -webkit-animation: fade-in 4s ease 0s 1;
-    -moz-animation: fade-in 4s ease 0s 1;
-    -o-animation: fade-in 4s ease 0s 1;
-    -ms-animation: fade-in 4s ease 0s 1;
-    
-    /*规定动画的最后状态为结束状态*/
-    animation-fill-mode:forwards;
-    -webkit-animation-fill-mode: forwards;  
-      -o-animation-fill-mode: forwards; 
-      -ms-animation-fill-mode: forwards;   
-      -moz-animation-fill-mode: forwards; 
-}
-.second-words{ 
-    opacity: 0;    
-    animation: fade-in 4s ease 2s 1;
-    -webkit-animation: fade-in 4s ease 2s 1;
-    -moz-animation: fade-in 4s ease 2s 1;
-    -o-animation: fade-in 4s ease 2s 1;
-    -ms-animation: fade-in 4s ease 2s 1;
-    
-    /*规定动画的最后状态为结束状态*/
-    animation-fill-mode:forwards;
-    -webkit-animation-fill-mode: forwards;  
-      -o-animation-fill-mode: forwards; 
-      -ms-animation-fill-mode: forwards;   
-      -moz-animation-fill-mode: forwards; 
-}
-.third-words{ 
-    opacity: 0;    
-    animation: fade-in 4s ease 4s 1;
-    -webkit-animation: fade-in 4s ease 4s 1;
-    -moz-animation: fade-in 4s ease 4s 1;
-    -o-animation: fade-in 4s ease 4s 1;
-    -ms-animation: fade-in 4s ease 4s 1;
-    
-    /*规定动画的最后状态为结束状态*/
-    animation-fill-mode:forwards;
-    -webkit-animation-fill-mode: forwards;  
-      -o-animation-fill-mode: forwards; 
-      -ms-animation-fill-mode: forwards;   
-      -moz-animation-fill-mode: forwards; 
-}
-.four-words{ 
-    opacity: 0;    
-    animation: fade-in 4s ease 6s 1;
+    animation: fade-in 4s ease 6s 1;    /*调用名称为fade-in的动画，全程动画显示时间4S，进入方式为ease，延时0S进入，播放次数1次*/
     -webkit-animation: fade-in 4s ease 6s 1;
     -moz-animation: fade-in 4s ease 6s 1;
     -o-animation: fade-in 4s ease 6s 1;
@@ -85,7 +40,7 @@ fade-in-words{
       -ms-animation-fill-mode: forwards;   
       -moz-animation-fill-mode: forwards; 
 }
-.five-words{ 
+.second-words{ 
     opacity: 0;    
     animation: fade-in 4s ease 8s 1;
     -webkit-animation: fade-in 4s ease 8s 1;
@@ -100,7 +55,7 @@ fade-in-words{
       -ms-animation-fill-mode: forwards;   
       -moz-animation-fill-mode: forwards; 
 }
-.six-words{ 
+.third-words{ 
     opacity: 0;    
     animation: fade-in 4s ease 10s 1;
     -webkit-animation: fade-in 4s ease 10s 1;
@@ -115,8 +70,7 @@ fade-in-words{
       -ms-animation-fill-mode: forwards;   
       -moz-animation-fill-mode: forwards; 
 }
-
-.seven-words{ 
+.four-words{ 
     opacity: 0;    
     animation: fade-in 4s ease 12s 1;
     -webkit-animation: fade-in 4s ease 12s 1;
@@ -131,8 +85,7 @@ fade-in-words{
       -ms-animation-fill-mode: forwards;   
       -moz-animation-fill-mode: forwards; 
 }
-
-.eight-words{ 
+.five-words{ 
     opacity: 0;    
     animation: fade-in 4s ease 14s 1;
     -webkit-animation: fade-in 4s ease 14s 1;
@@ -146,4 +99,206 @@ fade-in-words{
       -o-animation-fill-mode: forwards; 
       -ms-animation-fill-mode: forwards;   
       -moz-animation-fill-mode: forwards; 
+}
+.six-words{ 
+    opacity: 0;    
+    animation: fade-in 4s ease 16s 1;
+    -webkit-animation: fade-in 4s ease 16s 1;
+    -moz-animation: fade-in 4s ease 16s 1;
+    -o-animation: fade-in 4s ease 16s 1;
+    -ms-animation: fade-in 4s ease 16s 1;
+    
+    /*规定动画的最后状态为结束状态*/
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+}
+
+.seven-words{ 
+    opacity: 0;    
+    animation: fade-in 4s ease 18s 1;
+    -webkit-animation: fade-in 4s ease 18s 1;
+    -moz-animation: fade-in 4s ease 18s 1;
+    -o-animation: fade-in 4s ease 18s 1;
+    -ms-animation: fade-in 4s ease 18s 1;
+    
+    /*规定动画的最后状态为结束状态*/
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+}
+
+.eight-words{ 
+    opacity: 0;    
+    animation: fade-in 4s ease 20s 1;
+    -webkit-animation: fade-in 4s ease 20s 1;
+    -moz-animation: fade-in 4s ease 20s 1;
+    -o-animation: fade-in 4s ease 20s 1;
+    -ms-animation: fade-in 4s ease 20s 1;
+    
+    /*规定动画的最后状态为结束状态*/
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+}
+
+.nine-words{ 
+    opacity: 0;    
+    animation: fade-in 4s ease 22s 1;
+    -webkit-animation: fade-in 4s ease 22s 1;
+    -moz-animation: fade-in 4s ease 22s 1;
+    -o-animation: fade-in 4s ease 22s 1;
+    -ms-animation: fade-in 4s ease 22s 1;
+    
+    /*规定动画的最后状态为结束状态*/
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+}
+
+.ten-words{ 
+    opacity: 0;    
+    animation: fade-in 4s ease 24s 1;
+    -webkit-animation: fade-in 4s ease 24s 1;
+    -moz-animation: fade-in 4s ease 24s 1;
+    -o-animation: fade-in 4s ease 24s 1;
+    -ms-animation: fade-in 4s ease 24s 1;
+    
+    /*规定动画的最后状态为结束状态*/
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+}
+
+.eleven-words{ 
+    opacity: 0;    
+    animation: fade-in 4s ease 26s 1;
+    -webkit-animation: fade-in 4s ease 26s 1;
+    -moz-animation: fade-in 4s ease 26s 1;
+    -o-animation: fade-in 4s ease 26s 1;
+    -ms-animation: fade-in 4s ease 26s 1;
+    
+    /*规定动画的最后状态为结束状态*/
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+}
+
+.twelve-words{ 
+    opacity: 0;    
+    animation: fade-in 4s ease 28s 1;
+    -webkit-animation: fade-in 4s ease 28s 1;
+    -moz-animation: fade-in 4s ease 28s 1;
+    -o-animation: fade-in 4s ease 28s 1;
+    -ms-animation: fade-in 4s ease 28s 1;
+    
+    /*规定动画的最后状态为结束状态*/
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+}
+
+.thirteen-words{ 
+    opacity: 0;    
+    animation: fade-in 4s ease 30s 1;
+    -webkit-animation: fade-in 4s ease 30s 1;
+    -moz-animation: fade-in 4s ease 30s 1;
+    -o-animation: fade-in 4s ease 30s 1;
+    -ms-animation: fade-in 4s ease 30s 1;
+    
+    /*规定动画的最后状态为结束状态*/
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+}
+
+.fourteen-words{ 
+    opacity: 0;    
+    animation: fade-in 4s ease 32s 1;
+    -webkit-animation: fade-in 4s ease 32s 1;
+    -moz-animation: fade-in 4s ease 32s 1;
+    -o-animation: fade-in 4s ease 32s 1;
+    -ms-animation: fade-in 4s ease 32s 1;
+    
+    /*规定动画的最后状态为结束状态*/
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+}
+
+.fifteen-words{ 
+    opacity: 0;    
+    animation: fade-in 4s ease 34s 1;
+    -webkit-animation: fade-in 4s ease 34s 1;
+    -moz-animation: fade-in 4s ease 34s 1;
+    -o-animation: fade-in 4s ease 34s 1;
+    -ms-animation: fade-in 4s ease 34s 1;
+    
+    /*规定动画的最后状态为结束状态*/
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+}
+
+.sixteen-words{ 
+    opacity: 0;    
+    animation: fade-in 4s ease 36s 1;
+    -webkit-animation: fade-in 4s ease 36s 1;
+    -moz-animation: fade-in 4s ease 36s 1;
+    -o-animation: fade-in 4s ease 36s 1;
+    -ms-animation: fade-in 4s ease 36s 1;
+    
+    /*规定动画的最后状态为结束状态*/
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+}
+
+.seventeen-words{ 
+    opacity: 0;    
+    animation: fade-in 4s ease 38s 1;
+    -webkit-animation: fade-in 4s ease 38s 1;
+    -moz-animation: fade-in 4s ease 38s 1;
+    -o-animation: fade-in 4s ease 38s 1;
+    -ms-animation: fade-in 4s ease 38s 1;
+    
+    /*规定动画的最后状态为结束状态*/
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+}
+
+.love {
+    font-style: normal;
+    font-weight: 400;
+}
+
+.heart {
+    color: #f33;
+    font-size: .1em;
+    font-style: italic;
 }
